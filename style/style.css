@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    background-color: hsl(346, 69%, 90%);
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.heading{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#pragraph{
+    font-size: 12px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+#section1{
+    width: 40%;
+}
+.section1{
+    /* width: 50%; */
+    margin-left: 50px;
+}
+.button{
+    background-color: #E55473;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+#image{
+    margin-bottom: -4px;
+}
