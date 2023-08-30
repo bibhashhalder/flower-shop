@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* ====================header section===================== */
 #header{
     background-color: hsl(346, 69%, 90%);
     padding-top: 10px;
@@ -37,9 +38,10 @@
 #image{
     margin-bottom: -4px;
 }
-
+/* ===============main section1================== */
 #section2{
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 .article-container{
     display: flex;
@@ -96,4 +98,42 @@ background-color: #e0f0d1;
     width: 80%;
     margin: auto;
     margin-bottom: 0px;
+}
+/* ======================main section2============================ */
+#section3{
+    height: 500px;
+    
+    background-color: #f5b8c5c5;
+    margin-top: 70px;
+}
+.section3_article_container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.heading2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.paragraph3{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.button_container{
+    width: 50%;
+   margin: auto;
+    text-align: center;
+}
+.button2{
+    background-color: #E55473;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
