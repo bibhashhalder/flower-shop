@@ -102,9 +102,9 @@ background-color: #e0f0d1;
 /* ======================main section2============================ */
 #section3{
     height: 500px;
-    background-color: #f5ede3b2;
+    background-color: #eeb7c785;
     margin-top: 70px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 .section3_article_container{
     width: 80%;
@@ -112,6 +112,7 @@ background-color: #e0f0d1;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+
 }
 
 .heading2{
@@ -136,13 +137,16 @@ background-color: #e0f0d1;
     padding: 15px;
     margin-top: 10px;
     border-radius: 5px;
+    color: #ffffff;
 }
 /* ===========main section4============== */
 #section4{
     width: 80%;
     margin: auto;
+    margin-top: 50px;
 }
 .section4_article{
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -156,4 +160,46 @@ background-color: #e0f0d1;
     width: 240px;
     height: 260px;
     margin-left: 25px;
+    border-radius: 5px;
+}
+/* ====================main section5======================= */
+.section5{
+    background-image: url(../Flower-Asset/Rectangle\ 9.png);
+    background-size: cover;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+}
+#section5_article{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+   
+    
+}
+#section5_article1{
+    height: 50px;
+    text-align: center;
+    margin-top: -5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#section5_article1 input{
+    border: none;
+    width: 40%;
+   padding: 10PX;
+   margin-right: 10px;
+   border-radius: 5px;
+}
+#section5_article1  button{
+    border: none;
+    padding: 10PX;
+    background-color: #E55473;
+    color: #ffffff;
+    border-radius: 5px;
 }
