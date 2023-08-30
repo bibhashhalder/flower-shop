@@ -102,9 +102,9 @@ background-color: #e0f0d1;
 /* ======================main section2============================ */
 #section3{
     height: 500px;
-    
-    background-color: #f5b8c5c5;
+    background-color: #f5ede3b2;
     margin-top: 70px;
+    margin-bottom: 25px;
 }
 .section3_article_container{
     width: 80%;
@@ -136,4 +136,24 @@ background-color: #e0f0d1;
     padding: 15px;
     margin-top: 10px;
     border-radius: 5px;
+}
+/* ===========main section4============== */
+#section4{
+    width: 80%;
+    margin: auto;
+}
+.section4_article{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#heading3, #pragraph4{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.section4_image{
+    width: 240px;
+    height: 260px;
+    margin-left: 25px;
 }
